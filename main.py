@@ -20,6 +20,6 @@ def hello_http(request):
         name = request_args['name']
     else:
         name = 'World'
-    return 'Bye  {}!'.format(name)
+    return 'Hi  {}!'.format(name)
 
 """ Commentt """
