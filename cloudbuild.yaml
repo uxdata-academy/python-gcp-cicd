@@ -4,8 +4,8 @@ steps:
       [
         "functions",
         "deploy",
-        "hello_http",
-        "--region=asia-east1",
+        "hellohttp",
+        "--region=asia-south1",
         "--runtime=python39",
         "--trigger-http",
         "--entry-point=hello_http",
